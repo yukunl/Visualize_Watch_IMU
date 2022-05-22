@@ -1,6 +1,6 @@
 ## About this project
 
-This is application is an end to end pipeline that streams apple watch IMU and heart rate data in real time to your computer via a python server. The server then visualize, and store the data. 
+This is application is an end to end pipeline that streams apple watch IMU and heart rate data in real time to your computer python server via socketIO. The server then visualize, and store the data. 
 
 ## Installation and Requirements
 
