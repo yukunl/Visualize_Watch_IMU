@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>WKAppBundleIdentifier</key>
+			<string>com.activityCollector.ActivityCollector.watchkitapp</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.watchkit</string>
+	</dict>
+	<key>PORT_NUMBER</key>
+	<string>$(PORT_NUMBER)</string>
+	<key>PUBLIC_IP</key>
+	<string>$(PUBLIC_IP)</string>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string></string>
+		<string>workout-processing</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string></string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We would like to access your hear rate data for displaying health information</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>need to update heartrate to help background processing</string>
+</dict>
+</plist>

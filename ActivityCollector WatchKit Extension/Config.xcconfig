@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  ActivityCollector
+//
+//  Created by Yukun Li on 5/10/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PUBLIC_IP = 172.26.106.101
+PORT_NUMBER = 3000
